@@ -65,8 +65,8 @@ class VigenereCipheringMachine {
 			} else {
 				result.push(encodedMessage[i]);
 			}
-    }
-    return this.direct ? result.join('') : result.reverse().join('');
+		}
+		return this.direct ? result.join('') : result.reverse().join('');
 	}
 }
 
